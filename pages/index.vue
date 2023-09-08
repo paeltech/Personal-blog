@@ -158,22 +158,22 @@ const { data: posts } = await useFetch(
 }
 
 body {
-  font-family: 'Product Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 300;
   line-height: 1.75;
   /* color: #24252a; */
 }
 
 .font-cervantis {
-  font-family: 'Cervanttis', sans-serif;
+  font-family: 'Reenie Beanie', sans-serif;
   font-weight: normal;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Product Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
   line-height: 1.3;
 }
 </style>
