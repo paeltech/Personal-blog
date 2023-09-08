@@ -115,12 +115,13 @@ const { data: posts } = await useFetch(
 <style>
 @font-face {
   font-family: 'Product Sans';
-  src: url('/fonts/ProductSans-Light.eot');
-  src: url('/fonts/ProductSans-Light.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/ProductSans-Light.woff2') format('woff2'),
-    url('/fonts/ProductSans-Light.woff') format('woff'),
-    url('/fonts/ProductSans-Light.ttf') format('truetype'),
-    url('/fonts/ProductSans-Light.svg#ProductSans-Light') format('svg');
+  src: url('~/assets/fonts/ProductSans-Light.eot');
+  src: url('~/assets/fonts/ProductSans-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('~/assets/fonts/ProductSans-Light.woff2') format('woff2'),
+    url('~/assets/fonts/ProductSans-Light.woff') format('woff'),
+    url('~/assets/fonts/ProductSans-Light.ttf') format('truetype'),
+    url('~/assets/fonts/ProductSans-Light.svg#ProductSans-Light') format('svg');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -128,12 +129,14 @@ const { data: posts } = await useFetch(
 
 @font-face {
   font-family: 'Product Sans';
-  src: url('/fonts/ProductSans-Medium.eot');
-  src: url('/fonts/ProductSans-Medium.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/ProductSans-Medium.woff2') format('woff2'),
-    url('/fonts/ProductSans-Medium.woff') format('woff'),
-    url('/fonts/ProductSans-Medium.ttf') format('truetype'),
-    url('/fonts/ProductSans-Medium.svg#ProductSans-Medium') format('svg');
+  src: url('~/assets/fonts/ProductSans-Medium.eot');
+  src: url('~/assets/fonts/ProductSans-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('~/assets/fonts/ProductSans-Medium.woff2') format('woff2'),
+    url('~/assets/fonts/ProductSans-Medium.woff') format('woff'),
+    url('~/assets/fonts/ProductSans-Medium.ttf') format('truetype'),
+    url('~/assets/fonts/ProductSans-Medium.svg#ProductSans-Medium')
+      format('svg');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -141,12 +144,13 @@ const { data: posts } = await useFetch(
 
 @font-face {
   font-family: 'Cervanttis';
-  src: url('/fonts/CervanttisRegular.eot');
-  src: url('/fonts/CervanttisRegular.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/CervanttisRegular.woff2') format('woff2'),
-    url('/fonts/CervanttisRegular.woff') format('woff'),
-    url('/fonts/CervanttisRegular.ttf') format('truetype'),
-    url('/fonts/CervanttisRegular.svg#CervanttisRegular') format('svg');
+  src: url('~/assets/fonts/CervanttisRegular.eot');
+  src: url('~/assets/fonts/CervanttisRegular.eot?#iefix')
+      format('embedded-opentype'),
+    url('~/assets/fonts/CervanttisRegular.woff2') format('woff2'),
+    url('~/assets/fonts/CervanttisRegular.woff') format('woff'),
+    url('~/assets/fonts/CervanttisRegular.ttf') format('truetype'),
+    url('~/assets/fonts/CervanttisRegular.svg#CervanttisRegular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
