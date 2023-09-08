@@ -113,50 +113,6 @@ const { data: posts } = await useFetch(
   </div>
 </template>
 <style>
-@font-face {
-  font-family: 'Product Sans';
-  src: url('~/assets/fonts/ProductSans-Light.eot');
-  src: url('~/assets/fonts/ProductSans-Light.eot?#iefix')
-      format('embedded-opentype'),
-    url('~/assets/fonts/ProductSans-Light.woff2') format('woff2'),
-    url('~/assets/fonts/ProductSans-Light.woff') format('woff'),
-    url('~/assets/fonts/ProductSans-Light.ttf') format('truetype'),
-    url('~/assets/fonts/ProductSans-Light.svg#ProductSans-Light') format('svg');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('~/assets/fonts/ProductSans-Medium.eot');
-  src: url('~/assets/fonts/ProductSans-Medium.eot?#iefix')
-      format('embedded-opentype'),
-    url('~/assets/fonts/ProductSans-Medium.woff2') format('woff2'),
-    url('~/assets/fonts/ProductSans-Medium.woff') format('woff'),
-    url('~/assets/fonts/ProductSans-Medium.ttf') format('truetype'),
-    url('~/assets/fonts/ProductSans-Medium.svg#ProductSans-Medium')
-      format('svg');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Cervanttis';
-  src: url('~/assets/fonts/CervanttisRegular.eot');
-  src: url('~/assets/fonts/CervanttisRegular.eot?#iefix')
-      format('embedded-opentype'),
-    url('~/assets/fonts/CervanttisRegular.woff2') format('woff2'),
-    url('~/assets/fonts/CervanttisRegular.woff') format('woff'),
-    url('~/assets/fonts/CervanttisRegular.ttf') format('truetype'),
-    url('~/assets/fonts/CervanttisRegular.svg#CervanttisRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: 1.2rem;
-}
-
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
