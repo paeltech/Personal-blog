@@ -56,7 +56,15 @@ const { data: posts } = await useFetch(
         <div
           v-for="(post, index) in posts.items"
           :key="post.guid"
-          class="w-full text-left space-y-2 border rounded-md"
+          class="
+            w-full
+            bg-white
+            text-left
+            space-y-2
+            drop-shadow-md
+            hover:drop-shadow-xl
+            rounded-md
+          "
         >
           <a :href="post.link" target="_blank">
             <div v-if="index <= 2">
