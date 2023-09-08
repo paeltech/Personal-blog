@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/google-fonts', '@nuxtjs/tailwindcss'],
   googleFonts: {
     families: {
-      'Homemade+Apple': true,
       'Reenie+Beanie': true,
       'DM+Sans': {
         wght: [300, 600],
