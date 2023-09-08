@@ -7,7 +7,10 @@ const { data: posts } = await useFetch(
   <div>
     <!-- Hero Section -->
     <section
-      class="relative bg-[url(../img/hero.jpg)] bg-cover bg-center bg-no-repeat"
+      class="
+        relative
+        bg-[url(../../img/hero.jpg)] bg-cover bg-center bg-no-repeat
+      "
     >
       <div
         class="
@@ -37,7 +40,10 @@ const { data: posts } = await useFetch(
     <!-- End of hero section -->
 
     <!-- Blog section -->
-    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
+    <section
+      id="about"
+      class="max-w-4xl mx-auto mt-16 px-4 sm:px-6 lg:px-4 py-12"
+    >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div class="w-full text-left pr-6 md:pr-4 space-y-2">
           <p class="font-cervantis text-3xl">Sparks & Nuggets</p>
@@ -109,12 +115,13 @@ const { data: posts } = await useFetch(
 <style>
 @font-face {
   font-family: 'Product Sans';
-  src: url('../fonts/ProductSans-Light.eot');
-  src: url('../fonts/ProductSans-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/ProductSans-Light.woff2') format('woff2'),
-    url('../fonts/ProductSans-Light.woff') format('woff'),
-    url('../fonts/ProductSans-Light.ttf') format('truetype'),
-    url('../fonts/ProductSans-Light.svg#ProductSans-Light') format('svg');
+  src: url('../../fonts/ProductSans-Light.eot');
+  src: url('../../fonts/ProductSans-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/ProductSans-Light.woff2') format('woff2'),
+    url('../../fonts/ProductSans-Light.woff') format('woff'),
+    url('../../fonts/ProductSans-Light.ttf') format('truetype'),
+    url('../../fonts/ProductSans-Light.svg#ProductSans-Light') format('svg');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -135,12 +142,12 @@ const { data: posts } = await useFetch(
 
 @font-face {
   font-family: 'Cervanttis';
-  src: url('../fonts/CervanttisRegular.eot');
-  src: url('../fonts/CervanttisRegular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/CervanttisRegular.woff2') format('woff2'),
-    url('../fonts/CervanttisRegular.woff') format('woff'),
-    url('../fonts/CervanttisRegular.ttf') format('truetype'),
-    url('../fonts/CervanttisRegular.svg#CervanttisRegular') format('svg');
+  src: url('~/fonts/CervanttisRegular.eot');
+  src: url('~/fonts/CervanttisRegular.eot?#iefix') format('embedded-opentype'),
+    url('~/fonts/CervanttisRegular.woff2') format('woff2'),
+    url('~/fonts/CervanttisRegular.woff') format('woff'),
+    url('~/fonts/CervanttisRegular.ttf') format('truetype'),
+    url('~/fonts/CervanttisRegular.svg#CervanttisRegular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
