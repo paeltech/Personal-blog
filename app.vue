@@ -7,10 +7,7 @@ const { data: posts } = await useFetch(
   <div>
     <!-- Hero Section -->
     <section
-      class="
-        relative
-        bg-[url(../img/hero1.jpg)] bg-cover bg-center bg-no-repeat
-      "
+      class="relative bg-[url(../img/hero.jpg)] bg-cover bg-center bg-no-repeat"
     >
       <div
         class="
@@ -27,11 +24,11 @@ const { data: posts } = await useFetch(
           <p class="font-cervantis text-3xl">Hi, I'm</p>
           <h1 class="text-5xl">Paul <strong>Mandele</strong></h1>
 
-          <p class="mt-4">
+          <p class="my-4">
             Product Manager, Innovation & Tech consultant, Father, Husband,
             Christ disciple.
           </p>
-          <a href="#about" class="uppercase text-red-500">
+          <a href="#about" class="uppercase text-teal-600">
             Learn More about me</a
           >
         </div>
@@ -79,8 +76,13 @@ const { data: posts } = await useFetch(
                   >
                 </div>
 
-                <h3 class="text-2xl">{{ post.title }}</h3>
-                <a :href="post.link" target="_blank">Read on Medium</a>
+                <h3 class="text-2xl my-4">{{ post.title }}</h3>
+                <a
+                  :href="post.link"
+                  target="_blank"
+                  class="mt-4 uppercase text-sm text-teal-600"
+                  >Read on Medium</a
+                >
               </div>
             </div>
           </a>
