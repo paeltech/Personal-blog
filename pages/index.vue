@@ -24,7 +24,7 @@ const { data: posts } = await useFetch(
         "
       >
         <div class="w-1/4 absolute left-56 bottom-36">
-          <p class="font-cervantis text-3xl">Hi, I'm</p>
+          <p class="font-handwritten text-3xl">Hi, I'm</p>
           <h1 class="text-5xl">Paul <strong>Mandele</strong></h1>
 
           <p class="my-4">
@@ -46,7 +46,7 @@ const { data: posts } = await useFetch(
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div class="w-full text-left pr-6 md:pr-4 space-y-2">
-          <p class="font-cervantis text-3xl">Sparks & Nuggets</p>
+          <p class="font-handwritten text-3xl">Sparks & Nuggets</p>
           <h2 class="text-4xl">
             My thoughts, <br />
             ideas, learnings, <br />
@@ -120,7 +120,7 @@ body {
   /* color: #24252a; */
 }
 
-.font-cervantis {
+.font-handwritten {
   font-family: 'Reenie Beanie', sans-serif;
   font-weight: normal;
 }
