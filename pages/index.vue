@@ -23,9 +23,11 @@ const { data: posts } = await useFetch(
           lg:flex lg:h-screen lg:items-center lg:px-8
         "
       >
-        <div class="w-1/4 absolute left-56 bottom-36">
+        <div
+          class="w-1/2 lg:w-1/4 relative lg:absolute lg:left-56 botlg:bottom-36"
+        >
           <p class="font-handwritten text-3xl">Hi, I'm</p>
-          <h1 class="text-5xl">Paul <strong>Mandele</strong></h1>
+          <h1 class="text-3xl lg:text-5xl">Paul <strong>Mandele</strong></h1>
 
           <p class="my-4">
             Product Manager, Innovation & Tech consultant, Father, Husband,
@@ -53,21 +55,20 @@ const { data: posts } = await useFetch(
             opinions & views
           </h2>
         </div>
-        <div
-          v-for="(post, index) in posts.items"
-          :key="post.guid"
-          class="
-            w-full
-            bg-white
-            text-left
-            space-y-2
-            drop-shadow-md
-            hover:drop-shadow-xl
-            rounded-md
-          "
-        >
+        <div v-for="(post, index) in posts.items" :key="post.guid">
           <a :href="post.link" target="_blank">
-            <div v-if="index <= 2">
+            <div
+              v-if="index <= 2"
+              class="
+                w-full
+                bg-white
+                text-left
+                space-y-2
+                drop-shadow-md
+                hover:drop-shadow-xl
+                rounded-md
+              "
+            >
               <div class="w-full">
                 <img :src="post.thumbnail" :alt="post.title" />
               </div>
