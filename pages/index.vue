@@ -106,6 +106,31 @@ const { data: posts } = await useFetch(
     </section>
     <!-- End of Blog section -->
 
+    <!-- Banner Section -->
+    <section>
+      <div
+        class="
+          relative
+          mx-auto
+          max-w-screen-xl
+          px-4
+          py-32
+          sm:px-6
+          lg:flex lg:h-screen lg:items-center lg:px-8
+        "
+      >
+        <ins
+          data-revive-zoneid="23"
+          data-revive-id="50517769d9f3a920130b8d7674aebc12"
+        ></ins>
+        <script
+          async
+          src="//ssp.kwanza.co.tz/www/delivery/asyncjs.php"
+        ></script>
+      </div>
+    </section>
+    <!-- End of banner section -->
+
     <!-- blog section -->
     <!-- <div v-for="post in posts.items">
       <div style="padding-top: 16px; border: 2px" class="post">
