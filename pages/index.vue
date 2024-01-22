@@ -55,12 +55,13 @@ const { data: posts } = await useFetch(
             opinions & views
           </h2>
         </div>
-        <div v-for="(post, index) in posts.items" :key="post.guid">
+        <div class="grid" v-for="(post, index) in posts.items" :key="post.guid">
           <a :href="post.link" target="_blank">
             <div
               v-if="index <= 2"
               class="
                 w-full
+                auto-rows-fr
                 bg-white
                 text-left
                 space-y-2
@@ -69,8 +70,10 @@ const { data: posts } = await useFetch(
                 rounded-md
               "
             >
-              <div class="w-full" v-if="post.thumbnail">
-                <img :src="post.thumbnail" :alt="post.title" />
+              <div v-if="post.thumbnail">
+                <div class="w-full">
+                  <img :src="post.thumbnail" :alt="post.title" />
+                </div>
               </div>
               <div class="p-6 md:p-4">
                 <!-- <span class="text-sm text-gray-600">{{ post.pubDate }}</span> -->
