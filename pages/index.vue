@@ -69,7 +69,7 @@ const { data: posts } = await useFetch(
                 rounded-md
               "
             >
-              <div class="w-full">
+              <div class="w-full" v-if="post.thumbnail">
                 <img :src="post.thumbnail" :alt="post.title" />
               </div>
               <div class="p-6 md:p-4">
@@ -118,16 +118,7 @@ const { data: posts } = await useFetch(
           sm:px-6
           lg:flex lg:h-screen lg:items-center lg:px-8
         "
-      >
-        <ins
-          data-revive-zoneid="23"
-          data-revive-id="50517769d9f3a920130b8d7674aebc12"
-        ></ins>
-        <script
-          async
-          src="//ssp.kwanza.co.tz/www/delivery/asyncjs.php"
-        ></script>
-      </div>
+      ></div>
     </section>
     <!-- End of banner section -->
 
